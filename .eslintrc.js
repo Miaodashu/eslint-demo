@@ -26,6 +26,7 @@ module.exports = {
         semi: ['error', 'always'],
         // vite打包时自动去除console和debugger,所以这里直接关掉检查
         'no-console': 'off',
-        'no-debugger': 'off'
+        'no-debugger': 'off',
+        'vue/multi-word-component-names': 'off'
     }
 };
